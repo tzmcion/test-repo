@@ -1,0 +1,140 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #bdbdbd !important;
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    overflow-x: hidden;
+}
+
+
+#navi .navbar-brand{
+    color:black;
+    font-size: 1.5rem;
+}
+
+#navi{
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-bottom: 1px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color:white;
+    font-family: "Nunito", sans-serif;
+}
+
+.first{
+    color:white;
+    font-family: "Nunito", sans-serif;
+    z-index: 0;
+    margin-top: 5% !important;
+}
+
+.first h1{
+    font-weight: 200;
+    font-size: 4rem;
+    z-index: 0;
+}
+
+span{
+    color:black;
+}
+
+.bigbg{
+    background-color: #bdbdbd;
+    text-align: center !important;
+    padding:0px 0px 0px 0px;
+}
+
+#peirwszy{
+    margin-top: 0px;
+}
+
+.bigbg h2{
+    color:black;
+    font-family: "Nunito", sans-serif;
+}
+
+.stuf{
+    line-height: 2;
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.stuf h2,i{
+    margin-bottom: 5%;
+}
+
+.stuf p{
+    width: 70%;
+    color: black;
+}
+
+@keyframes changebg{
+    from {background-color: transparent;}
+    to {background-color: #707070;}
+}
+
+@keyframes changeback{
+    from {background-color: #707070;}
+    to {background-color: transparent;}
+}
+
+
+.img-thumbnail{
+}
+
+
+.cardi{
+    padding: 0px !important;
+   background: linear-gradient(#4d4d4d,#bdbdbd);
+   border-radius: 10px;
+   text-align: center;
+   margin-top: 10%;
+}
+
+.cardi h3{
+    margin-top: 4%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.cardi p{
+    width: 90%;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.cardi i{
+    margin-top: 3%;
+}
+
+.cardi a{
+    margin-bottom: 5%;
+}
+
+.foot{
+    background-color: #7c7c7c;
+    color:white;
+    padding-left: 15%;
+    font-weight: 100;
+    line-height: 1.2em;
+    font-family: "Nunito", sans-serif;
+    margin-top: 10%;
+}
+
+.foot h6{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.foot p{
+    margin-bottom: 0.2%;
+}
+
+.nav-item:hover{
+    color: rgb(37, 37, 37);
+}
+
+.nav-item{
+    cursor: pointer;
+}
